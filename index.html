@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeopardy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Pangolin&family=Supermercado+One&display=swap" 
+    rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="loga.png">
+</head>
+<body>
+    <p id="attribute">Made by Sebastian Delgado</p>
+    <div id="selectTeams">
+        <h1 id="title">Jeopardy</h1>
+        <h2 id="instructions">Please choose number of teams:</h2>
+        <input type="number" value="2" min="2" max="8" id="teamCardanity">
+        <button id="numberOfTeams"> Select </button>
+    </div>
+    <div id="teamNames">
+    </div>
+    <button id="continueButton">Continue</button>
+</body>
+</html>
+
+
+<!-- 
+1. Användaren ska först välja antal lag 1-8 och lagnamn.
+2. Sedan ska man få en svart ruta (ska tänka ut någon form av animation)
+3. Sedan ska programet registrera keystrokes. Alltså: pil höger för lag 1, pil vänster för lag 2, pil upp för lag 3, pil ner för lag 4, a för lag 5, d för lag 6, w för lag 7, s för lag 8.
+4. Den knappen som registreras först ska leda till att det lag som är "bunden" till knappen kommer upp på skärmen. 
+5. Sedan ska användaren med en knapp kunna "resetta" programmet så att det registrerar keystrokes igen (alltså loppar till steg 3).
+
+
+Extra anteckningar: liten animering:
+Kunna se tidsdifferens mellan klickande.
+
+Ex: Om pil vänster registrears först ska (lag 2) "lagnamn" komma upp på skärmen.
+-->
+<!-- 
+<div class="teamName">
+    <h2>Team 1</h2>
+    <input type="text" name="teamName" id="teamName1">
+</div> -->
