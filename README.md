@@ -1,4 +1,7 @@
 # jeopardy
+Link to project: 
+https://jeopardybuttons.netlify.app/
+
 My school in Sweden(procivitas.se) is holding a Jeopady competition for their faculty and students. I have helped by making this program,
 that takes in a number of teams. The different team names are then mapped onto specific keys:
 
